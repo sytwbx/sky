@@ -1,3 +1,29 @@
+.daohanglan{
+    height: 80px;
+    width: 100%;
+    background-color: #385170;
+    display: flex;
+    flex-basis:auto
+}
+
+.first{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.second{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.first img{
+    height: 80px;
+}
+
+
 .yuansu{
     width: 90%;
     background-color: #385170;
@@ -13,8 +39,27 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.img{
+.second a{
+    text-decoration: none;
+    color: #ececec;
+    align-self: flex-end;
+    font-size: 30px;
+    padding: 25px;
 
+}
+
+.biaoge{
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ececec;
+    background-color: #142d4c;
+}
+
+img{
     width: 90%;
     border-radius: 20px;
 }
@@ -29,6 +74,7 @@
 
 body{
     background-color: #142d4c;
+    margin: 0px;
 }
 
 h1{
@@ -42,3 +88,8 @@ p{
 h3{
     color: #ececec;
 }
+
+li{
+    color: #ececec;
+}
+
