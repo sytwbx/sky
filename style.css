@@ -6,25 +6,28 @@
     flex-basis:auto
 }
 
-.first{
+.firstflex{
     width: 50%;
     display: flex;
     justify-content: flex-start;
 }
 
-.second{
+.secondflex{
     width: 50%;
     display: flex;
     justify-content: flex-end;
     gap: 10px;
 }
 
-.first img{
-    height: 80px;
+.thirdflex{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-.yuansu{
+.flexitem{
     width: 90%;
     background-color: #385170;
     text-align: center;
@@ -39,13 +42,17 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.second a{
+.firstflex img{
+    height: 80px;
+    width: 80px;
+}
+
+.secondflex a{
     text-decoration: none;
     color: #ececec;
     align-self: flex-end;
     font-size: 30px;
     padding: 25px;
-
 }
 
 .biaoge{
@@ -64,13 +71,7 @@ img{
     border-radius: 20px;
 }
 
-.liebiao{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 body{
     background-color: #142d4c;
@@ -93,3 +94,11 @@ li{
     color: #ececec;
 }
 
+@media only screen and (max-width: 741px) {
+    .secondflex a {
+      font-size: larger;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 15px;
+    }
+  }
