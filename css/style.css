@@ -1,0 +1,104 @@
+.daohanglan{
+    height: 80px;
+    width: 100%;
+    background-color: #385170;
+    display: flex;
+    flex-basis:auto
+}
+
+.firstflex{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secondflex{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.thirdflex{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexitem{
+    width: 90%;
+    background-color: #385170;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.firstflex img{
+    height: 80px;
+    width: 80px;
+}
+
+.secondflex a{
+    text-decoration: none;
+    color: #ececec;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.biaoge{
+    display: flex;
+    justify-content: center;
+}
+
+.secondflex a:hover {
+    text-decoration: none;
+    color: #ececec;
+    background-color: #142d4c;
+}
+
+.secondflex a{
+    background-color: #9fd3c7;
+    border-radius: 10px;
+}
+
+img{
+    width: 90%;
+    border-radius: 20px;
+}
+
+body{
+    background-color: #142d4c;
+    margin: 0px;
+}
+
+h1{
+    color: #9fd3c7;
+}
+
+p{
+    color: #ececec;
+}
+
+h3{
+    color: #ececec;
+}
+
+li{
+    color: #ececec;
+}
+
+@media only screen and (max-width: 741px) {
+    .secondflex a {
+      font-size: large;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 15px;
+    }
+}
