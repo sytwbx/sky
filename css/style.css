@@ -3,7 +3,7 @@
     width: 100%;
     background-color: #385170;
     display: flex;
-    flex-basis:auto
+    flex-basis:auto;
 }
 
 .firstflex{
@@ -40,6 +40,11 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.flexitem:hover{
+    border-radius: 3px;
+    width: 94%;
+}
+
 .firstflex img{
     height: 80px;
     width: 80px;
@@ -66,6 +71,29 @@
 .secondflex a{
     background-color: #9fd3c7;
     border-radius: 10px;
+}
+
+.fanye{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fanye p{
+    font-size: large;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    margin-top: 10px;
+    background-color: #9fd3c7;
+    border-radius: 10px;
+}
+
+.fanye p:hover{
+    color: #ececec;
+    background-color: #142d4c;
 }
 
 img{
